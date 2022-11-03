@@ -1,9 +1,8 @@
-# This is a sample Python script.
+from user_class import Registration
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-def mul(a, b):
-    print(f'{a}*{b}={a * b}')
+
+def add(a, b):
+    print(a + b)
 
 
 def print_hi(name):
@@ -14,5 +13,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    add(4, 5)
+    user1 = Registration('Ден', 'Колесников', 89223456363, 'userx@gmail.com')
+    print(user1)
